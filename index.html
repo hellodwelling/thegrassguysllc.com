@@ -844,7 +844,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
             <div x-data="{ show: false }" class="relative overflow-hidden border-b border-green-100 select-none">
                 <h3                 
                 @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-green-900  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-green-400  lg:text-left">
-                    <span class = "flex text-left lg:text-left">What is a collection deck and why do you use one?</span>
+                    <span class = "flex text-left lg:text-left">What is the best way to get a quote?</span>
                     <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </h3>
                 <p  class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-green-900 text-center lg:text-left"
@@ -855,7 +855,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     x-transition:leave-start="opacity-100 transform -translate-y-0"
                     x-transition:leave-end="opacity-0 transform -translate-y-4"
                     x-show="show"
-                    x-cloak>We use a collection deck combined with the GHS system to give you an unmatched superior quality of cut. The GHS system uses a powerful blower that vacuums up the grass clippings.</p>
+                    x-cloak>The best way to get a quote is to text Matt Hitchcock at 812-760-5706. If it is easier, though, you can drop us an email at thegrassguys2000@gmail.com.</p>
             </div>
 
         
@@ -876,6 +876,26 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     x-transition:leave-end="opacity-0 transform -translate-y-4"
                     x-show="show"
                     x-cloak>The equipment I prefer to use for all of our properties is Walker. Walker is proudly manufactured in Fort Collins, CO. In 2007, I started using Walkers because I believed Walkers would be the perfect fit for our high standards at The Grass Guys. Unlike other zero turns with Walkers, we can choose the style of the deck (Collection, Mulch, or Side-Discharge), and the size of the deck for us can range from 42" up to 62" just by changing out the deck. This allows us to have what your property needs to get the manicured cut it deserves every service.</p>
+            </div>
+
+        
+
+            <!-- Question 1 -->
+            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-green-100 select-none">
+                <h3                 
+                @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-green-900  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-green-400  lg:text-left">
+                    <span class = "flex text-left lg:text-left">What is a collection deck and why do you use one?</span>
+                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </h3>
+                <p  class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-green-900 text-center lg:text-left"
+                    x-transition:enter="transition-all ease-out duration-300"
+                    x-transition:enter-start="opacity-0 transform -translate-y-4"
+                    x-transition:enter-end="opacity-100 transform -translate-y-0"
+                    x-transition:leave="transition-all ease-in duration-300"
+                    x-transition:leave-start="opacity-100 transform -translate-y-0"
+                    x-transition:leave-end="opacity-0 transform -translate-y-4"
+                    x-show="show"
+                    x-cloak>We use a collection deck combined with the GHS system to give you an unmatched superior quality of cut. The GHS system uses a powerful blower that vacuums up the grass clippings.</p>
             </div>
 
         
@@ -916,26 +936,6 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     x-transition:leave-end="opacity-0 transform -translate-y-4"
                     x-show="show"
                     x-cloak>Side Discharge decks have a three-blade gear-driven design that allows them to achieve superior cut quality on either finished turf or rough terrain. On our Side Discharge decks, we use the Power Chute system to block the chute when mowing in and around flower/mulch beds to keep grass clippings from blowing onto the mulch.</p>
-            </div>
-
-        
-
-            <!-- Question 1 -->
-            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-green-100 select-none">
-                <h3                 
-                @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-green-900  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-green-400  lg:text-left">
-                    <span class = "flex text-left lg:text-left">What is the best way to get a quote?</span>
-                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                </h3>
-                <p  class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-green-900 text-center lg:text-left"
-                    x-transition:enter="transition-all ease-out duration-300"
-                    x-transition:enter-start="opacity-0 transform -translate-y-4"
-                    x-transition:enter-end="opacity-100 transform -translate-y-0"
-                    x-transition:leave="transition-all ease-in duration-300"
-                    x-transition:leave-start="opacity-100 transform -translate-y-0"
-                    x-transition:leave-end="opacity-0 transform -translate-y-4"
-                    x-show="show"
-                    x-cloak>The best way to get a quote is to text Matt Hitchcock at 812-760-5706. If it is easier, though, you can drop us an email at thegrassguys2000@gmail.com.</p>
             </div>
 
         
