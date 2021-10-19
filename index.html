@@ -484,91 +484,121 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
             <h2 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Our Best Work</h2>
             <h2 class="my-3 mb-10 text-xl font-medium  text-green-400  text-center">See why our customers love us</h2>
-            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/RGT9NHGQDRYGIDUAIIYK0ZG3PQWOHTOWJ01CNK0Y.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/CJZONJZ0ZAMDEUAP9WKKB2GHRETY6JSHLTKEF6MI.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/L9PET343RHCJRSJY97T0UJYIBS8U60OPQJUB2T4M.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/G5PXUIIH0WUN0G6B40N8QIHZ05ZLVFCPG5AW0NI1.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3ACMYLH4X28I8GRYX07PK1LNDPFT3WQQ93HOA0EW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/KS9OQ3IFV9EQJM2E9QPZM8HNKZBLK1I6WLH3C1MI.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/Q6MJ3WD6IFT6S0V8SOAP297KPYR7P6RKL11Z3HO3.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/LIF1OL6WUTNH7MLQG5BKJV1AGS0XFI20KQWD2V4B.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/5TJ8J73NXVMTK3C1Q6CE2G806JIXP23E3DBTUK05.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/5GBKWDUXO9SGMA65TJ36Z7R4GWFIXMC05IO9VATA.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/AYRDW6BLTIFFM4HD3J550MZPKJSD7STEC9XXEE5B.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/MEHZV8J5EXRRS1OATEC2YQVAVZ48N9U8E3PXT2UO.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/PPABXVEPFMESDFIPJO5H3G4MCAIBZ250SFYXQOM5.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/AD74BVKSVMCZZMEYYOKH6HQB1GBS01ZRPN1QLMCD.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/2RLMOK25YIYK1EQVP1FMV66IB3JWUCSW8Y96FWIG.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/WUTWFYM4GEUZXBM2R7ZFH63BBYKB6RGFTMKG24TB.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/58VEPKO6CWPVD43NONUBKOR0EWIGDD77GYWL0YJ1.png', 'photo'],   ] }" @keydown.escape= "open = false"   >
+            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211014_182619308.jpg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211014_171748169.jpg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211013_141514112.jpg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211013_155347017.jpg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/RGT9NHGQDRYGIDUAIIYK0ZG3PQWOHTOWJ01CNK0Y.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211014_171754016.jpg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211014_182619308.jpg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/CJZONJZ0ZAMDEUAP9WKKB2GHRETY6JSHLTKEF6MI.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/L9PET343RHCJRSJY97T0UJYIBS8U60OPQJUB2T4M.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/G5PXUIIH0WUN0G6B40N8QIHZ05ZLVFCPG5AW0NI1.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3ACMYLH4X28I8GRYX07PK1LNDPFT3WQQ93HOA0EW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/KS9OQ3IFV9EQJM2E9QPZM8HNKZBLK1I6WLH3C1MI.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/Q6MJ3WD6IFT6S0V8SOAP297KPYR7P6RKL11Z3HO3.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/LIF1OL6WUTNH7MLQG5BKJV1AGS0XFI20KQWD2V4B.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/5TJ8J73NXVMTK3C1Q6CE2G806JIXP23E3DBTUK05.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/5GBKWDUXO9SGMA65TJ36Z7R4GWFIXMC05IO9VATA.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/AYRDW6BLTIFFM4HD3J550MZPKJSD7STEC9XXEE5B.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/MEHZV8J5EXRRS1OATEC2YQVAVZ48N9U8E3PXT2UO.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/PPABXVEPFMESDFIPJO5H3G4MCAIBZ250SFYXQOM5.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/AD74BVKSVMCZZMEYYOKH6HQB1GBS01ZRPN1QLMCD.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/2RLMOK25YIYK1EQVP1FMV66IB3JWUCSW8Y96FWIG.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/WUTWFYM4GEUZXBM2R7ZFH63BBYKB6RGFTMKG24TB.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/58VEPKO6CWPVD43NONUBKOR0EWIGDD77GYWL0YJ1.png', 'photo'],   ] }" @keydown.escape= "open = false"   >
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/RGT9NHGQDRYGIDUAIIYK0ZG3PQWOHTOWJ01CNK0Y.jpeg"  alt = "Photo number 1 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211014_182619308.jpg"  alt="photo of best work"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/CJZONJZ0ZAMDEUAP9WKKB2GHRETY6JSHLTKEF6MI.jpeg"  alt = "Photo number 2 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211014_171748169.jpg"  alt="photo of best work"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/L9PET343RHCJRSJY97T0UJYIBS8U60OPQJUB2T4M.jpeg"  alt = "Photo number 3 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211013_141514112.jpg"  alt="photo of best work"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/G5PXUIIH0WUN0G6B40N8QIHZ05ZLVFCPG5AW0NI1.jpeg"  alt = "Photo number 4 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211013_155347017.jpg"  alt="photo of best work"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3ACMYLH4X28I8GRYX07PK1LNDPFT3WQQ93HOA0EW.jpeg"  alt = "Photo number 5 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/RGT9NHGQDRYGIDUAIIYK0ZG3PQWOHTOWJ01CNK0Y.jpeg"  alt = "Photo number 1 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/KS9OQ3IFV9EQJM2E9QPZM8HNKZBLK1I6WLH3C1MI.jpeg"  alt = "Photo number 6 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211014_171754016.jpg"  alt="photo of best work"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Q6MJ3WD6IFT6S0V8SOAP297KPYR7P6RKL11Z3HO3.jpeg"  alt = "Photo number 7 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/IMG_20211014_182619308.jpg"  alt="photo of best work"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/LIF1OL6WUTNH7MLQG5BKJV1AGS0XFI20KQWD2V4B.jpeg"  alt = "Photo number 8 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/CJZONJZ0ZAMDEUAP9WKKB2GHRETY6JSHLTKEF6MI.jpeg"  alt = "Photo number 2 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5TJ8J73NXVMTK3C1Q6CE2G806JIXP23E3DBTUK05.jpeg"  alt = "Photo number 9 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/L9PET343RHCJRSJY97T0UJYIBS8U60OPQJUB2T4M.jpeg"  alt = "Photo number 3 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5GBKWDUXO9SGMA65TJ36Z7R4GWFIXMC05IO9VATA.jpeg"  alt = "Photo number 10 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/G5PXUIIH0WUN0G6B40N8QIHZ05ZLVFCPG5AW0NI1.jpeg"  alt = "Photo number 4 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/AYRDW6BLTIFFM4HD3J550MZPKJSD7STEC9XXEE5B.jpeg"  alt = "Photo number 11 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3ACMYLH4X28I8GRYX07PK1LNDPFT3WQQ93HOA0EW.jpeg"  alt = "Photo number 5 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/MEHZV8J5EXRRS1OATEC2YQVAVZ48N9U8E3PXT2UO.jpeg"  alt = "Photo number 12 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/KS9OQ3IFV9EQJM2E9QPZM8HNKZBLK1I6WLH3C1MI.jpeg"  alt = "Photo number 6 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/PPABXVEPFMESDFIPJO5H3G4MCAIBZ250SFYXQOM5.jpeg"  alt = "Photo number 13 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Q6MJ3WD6IFT6S0V8SOAP297KPYR7P6RKL11Z3HO3.jpeg"  alt = "Photo number 7 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/AD74BVKSVMCZZMEYYOKH6HQB1GBS01ZRPN1QLMCD.jpeg"  alt = "Photo number 14 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/LIF1OL6WUTNH7MLQG5BKJV1AGS0XFI20KQWD2V4B.jpeg"  alt = "Photo number 8 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2RLMOK25YIYK1EQVP1FMV66IB3JWUCSW8Y96FWIG.jpeg"  alt = "Photo number 15 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5TJ8J73NXVMTK3C1Q6CE2G806JIXP23E3DBTUK05.jpeg"  alt = "Photo number 9 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 15; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/WUTWFYM4GEUZXBM2R7ZFH63BBYKB6RGFTMKG24TB.png"  alt = "Photo number 16 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 15; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5GBKWDUXO9SGMA65TJ36Z7R4GWFIXMC05IO9VATA.jpeg"  alt = "Photo number 10 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 16; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/58VEPKO6CWPVD43NONUBKOR0EWIGDD77GYWL0YJ1.png"  alt = "Photo number 17 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 16; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/AYRDW6BLTIFFM4HD3J550MZPKJSD7STEC9XXEE5B.jpeg"  alt = "Photo number 11 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 17; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/MEHZV8J5EXRRS1OATEC2YQVAVZ48N9U8E3PXT2UO.jpeg"  alt = "Photo number 12 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 18; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/PPABXVEPFMESDFIPJO5H3G4MCAIBZ250SFYXQOM5.jpeg"  alt = "Photo number 13 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 19; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/AD74BVKSVMCZZMEYYOKH6HQB1GBS01ZRPN1QLMCD.jpeg"  alt = "Photo number 14 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 20; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2RLMOK25YIYK1EQVP1FMV66IB3JWUCSW8Y96FWIG.jpeg"  alt = "Photo number 15 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 21; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/WUTWFYM4GEUZXBM2R7ZFH63BBYKB6RGFTMKG24TB.png"  alt = "Photo number 16 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 22; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/58VEPKO6CWPVD43NONUBKOR0EWIGDD77GYWL0YJ1.png"  alt = "Photo number 17 of The Grass Guys Complete Lawn Care LLC.&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                  
                                     
