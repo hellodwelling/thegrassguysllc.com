@@ -958,7 +958,7 @@
             <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 4,
+        amountOfImages: 3,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -1014,23 +1014,6 @@
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/242f4eac-534f-4d69-9602-bdccbc2f9955.jpeg" alt="Pruning Bushes and Perennial Service for The Grass Guys Complete Lawn Care LLC. in Evansville, IN" loading="lazy"/>
-                            
-                        </div>
-
-                        <div class="space-y-1 text-lg font-medium leading-6">
-                            <p class="line-clamp-3"></p>
-                            <h3 class="text-primary"></h3>
-                        </div>
-                    </button>
-                </div>
-            </li>
-        
-            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
-                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
-                        <div class="aspect-w-3 aspect-h-2">
-                            
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/7063dac0-c774-45c2-909e-aac7d4e981de.jpeg" alt="Pruning Bushes and Perennial Service for The Grass Guys Complete Lawn Care LLC. in Evansville, IN" loading="lazy"/>
                             
                         </div>
 
@@ -1102,13 +1085,6 @@
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/242f4eac-534f-4d69-9602-bdccbc2f9955.jpeg" alt="Pruning Bushes and Perennial Service for The Grass Guys Complete Lawn Care LLC. in Evansville, IN" loading="lazy"/>
-                                            <p lorem="1" class="mt-3 text-gray-500"></p>
-                                        
-                                    </li>
-                                
-                                    <li class="flex flex-col" x-show="activeImage === 3">
-                                            
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7063dac0-c774-45c2-909e-aac7d4e981de.jpeg" alt="Pruning Bushes and Perennial Service for The Grass Guys Complete Lawn Care LLC. in Evansville, IN" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
